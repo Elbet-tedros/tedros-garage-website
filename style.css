@@ -20,7 +20,7 @@ body {
 
 /* ---------- Header ---------- */
 header {
-  background-color: #0d1b2a;
+  background-color: #546a9f5e;
   color: white;
   padding: 1rem 0;
   position: sticky;
@@ -30,14 +30,17 @@ header {
 }
 
 .header-container {
+  height: 70px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 .logo {
-  height: 50px;
+  width: 170px;
+  height: 180px;
   cursor: pointer;
+  padding-top: 1pc;
 }
 
 nav ul {
